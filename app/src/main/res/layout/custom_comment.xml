@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button1">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button1"
+        android:padding="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textSize="25dp"
+            android:layout_marginHorizontal="20dp"/>
+
+        <com.taufiqrahman.reviewratings.RatingReviews
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingReview">
+
+        </com.taufiqrahman.reviewratings.RatingReviews>
+    </TableRow>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@drawable/button2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/lvComment"
+                android:layout_width="match_parent"
+                android:layout_height="350dp">
+
+            </ListView>
+        </LinearLayout>
+    </ScrollView>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button1"
+        android:padding="15dp"
+        android:layout_marginLeft="5dp">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đánh giá: "
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textSize="18dp"
+            />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="@style/productRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp">
+
+        <EditText
+            android:id="@+id/etComment"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Bình luận"
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textSize="18dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button1"
+            />
+
+        <Button
+            android:id="@+id/btComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:background="@drawable/button2"
+            android:text="Gửi" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/btBack_cust_cmt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button1"
+        android:text="Back"
+        android:padding="15dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

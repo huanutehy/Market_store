@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button1"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/tvTSKT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_2"
+        android:gravity="center"
+        android:text="THÔNG SỐ KỸ THUẬT"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:padding="15dp"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tabbar"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textViewS"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Màn hình:"
+            android:layout_margin="5dp"
+            android:gravity="right"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/tvScreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_margin="5dp"
+            android:textColor="#000000"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tabbar"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textViewH"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Hệ điều hành:"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:textColor="#000000"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/tvOS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_margin="5dp"
+            android:text="" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tabbar"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textViewC"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Camera:"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:textColor="#000000"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/tvCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_margin="5dp"
+            android:text="" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tabbar"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textViewCPU"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="CPU:"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:textColor="#000000"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/tvCPU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_margin="5dp"
+            android:text="" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tabbar"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textViewRAM"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="RAM:"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:textColor="#000000"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/tvRAM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="#000000"
+            android:text="" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tabbar"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textViewROM"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="ROM:"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:textColor="#000000"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/tvROM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_margin="5dp"
+            android:text="" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tabbar"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textViewSC"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Thẻ nhớ:"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:textColor="#000000"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/tvExternalStorage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="#000000"
+            android:text="" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tabbar"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textViewSIM"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="SIM:"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:textColor="#000000"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/tvSIM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_margin="5dp"
+            android:text="" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tabbar"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textViewP"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="PIN:"
+            android:layout_margin="5dp"
+            android:gravity="right"
+            android:textColor="#000000"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/tvPIN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_margin="5dp"
+            android:text="" />
+    </TableRow>
+    <Button
+        android:id="@+id/btBack_spec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đóng lại"
+        android:background="@drawable/button2"
+        android:padding="5dp"
+        android:textSize="18dp"
+        android:layout_gravity="center"/>
+</LinearLayout>

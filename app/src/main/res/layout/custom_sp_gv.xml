@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back_1"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/img_gv_sp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_1"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:text="Tên"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:maxLines="1" />
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_1"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:text="giá"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:maxLines="1" />
+
+</LinearLayout>

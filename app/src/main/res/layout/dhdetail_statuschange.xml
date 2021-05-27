@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/sttchange_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_5"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+
+        <TextView
+            android:id="@+id/tvTitle_sttchange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="CHI TIẾT ĐƠN HÀNG"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:background="@drawable/button1"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tv_buy"
+                android:layout_width="130dp"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:gravity="right|center"
+                android:text="Địa chỉ nhận hàng:"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tvDC_sttchange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#F4F4F4"
+                android:gravity="left|center"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/tvDH"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:gravity="right|center"
+            android:text="Đơn hàng:"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_margin="5dp"
+            android:background="#F4F4F4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ListView
+                    android:id="@+id/lv_sttchange"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp" />
+            </LinearLayout>
+        </ScrollView>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tvHTNhanHang"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:gravity="right|center"
+                android:text="Hình thức nhận hàng:"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/spHTNhanHang_sttchange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="#000000"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tvHTThanhToan"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:gravity="right|center"
+                android:text="Hình thức thanh toán:"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/spHTThanhToan_sttchange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="#000000" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tvTT"
+                android:layout_width="130dp"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:gravity="right|center"
+                android:text="Tổng thanh toán:"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tvTongTien_sttchange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#F4F4F4"
+                android:gravity="left|center"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+        </TableRow>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btChange_sttchange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button4"
+        android:text="CẬP NHẬT TRẠNG THÁI"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

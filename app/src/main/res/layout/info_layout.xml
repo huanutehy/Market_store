@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_1">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="555dp"
+        android:background="@drawable/button1"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="5dp">
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:apiKey="AIzaSyAU6OzdMlqciJ-9SgFu4k6RNE6CqA0vLGk"
+            android:clickable="true"
+            android:background="@drawable/back_1"
+            android:enabled="true"/>
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:text="Author: Vũ Đức Bình"
+        android:background="@drawable/button1"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:text="Version: 1.0.0"
+        android:background="@drawable/button1"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"/>
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button1"
+    android:layout_marginHorizontal="5dp"
+    android:layout_marginTop="5dp"
+    android:padding="5dp">
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:text="Liên hệ: 0393915787" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:text="Email: binhvd110@gmail.com"
+        android:gravity="right"/>
+
+</TableRow>
+
+</LinearLayout>

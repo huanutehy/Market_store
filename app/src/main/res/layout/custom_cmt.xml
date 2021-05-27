@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back_1">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tvUsername_cust_cmt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Tên TK"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:id="@+id/tvTime_cust_cmt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Thời gian"
+            android:textColor="#000000"
+            android:textSize="14dp"
+            android:gravity="right"
+            android:layout_marginRight="10dp"/>
+
+    </TableRow>
+
+    <RatingBar
+        android:id="@+id/ratingBar_cust_cmt"
+        style="@style/productRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:numStars="5"
+        android:paddingVertical="5dp"
+        android:stepSize="1" />
+    <TextView
+        android:id="@+id/tvComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nội dung"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:background="@drawable/back_3"
+        />
+</LinearLayout>
